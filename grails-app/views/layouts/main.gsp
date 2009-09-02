@@ -12,6 +12,7 @@
         </div>	
         <div class="logo"><img src="${resource(dir:'images',file:'grails_logo.jpg')}" alt="Grails" /></div>
         <h2>This is a cool application!</h2>
-        <g:layoutBody />		
+        <g:layoutBody />
+        &copy; 2009 Bruce
     </body>	
 </html>
