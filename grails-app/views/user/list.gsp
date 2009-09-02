@@ -21,8 +21,6 @@
                     <thead>
                         <tr>
                         
-                   	        <g:sortableColumn property="id" title="Id" />
-                        
                    	        <g:sortableColumn property="userName" title="User Name" />
                         
                    	        <g:sortableColumn property="firstName" title="First Name" />
@@ -34,8 +32,6 @@
                     <tbody>
                     <g:each in="${userInstanceList}" status="i" var="userInstance">
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
-                        
-                            <td><g:link action="show" id="${userInstance.id}">${fieldValue(bean:userInstance, field:'id')}</g:link></td>
                         
                             <td>${fieldValue(bean:userInstance, field:'userName')}</td>
                         
