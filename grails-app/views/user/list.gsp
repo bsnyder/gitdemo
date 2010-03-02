@@ -26,6 +26,8 @@
                    	        <g:sortableColumn property="firstName" title="First Name" />
                         
                    	        <g:sortableColumn property="lastName" title="Last Name" />
+                   	        
+                   	        <g:sortableColumn property="age" title="Age" />
                         
                         </tr>
                     </thead>
@@ -38,6 +40,8 @@
                             <td>${fieldValue(bean:userInstance, field:'firstName')}</td>
                         
                             <td>${fieldValue(bean:userInstance, field:'lastName')}</td>
+                            
+                            <td>${fieldValue(bean:userInstance, field:'age')}</td>
                         
                         </tr>
                     </g:each>

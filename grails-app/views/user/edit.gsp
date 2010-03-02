@@ -55,6 +55,15 @@
                                     <input type="text" id="lastName" name="lastName" value="${fieldValue(bean:userInstance,field:'lastName')}"/>
                                 </td>
                             </tr> 
+                            
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                    <label for="age">Age:</label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean:userInstance,field:'age','errors')}">
+                                    <input type="text" id="age" name="age" value="${fieldValue(bean:userInstance,field:'age')}"/>
+                                </td>
+                            </tr>
                         
                         </tbody>
                     </table>

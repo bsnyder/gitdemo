@@ -49,6 +49,12 @@
                             <td valign="top" class="value">${fieldValue(bean:userInstance, field:'lastName')}</td>
                             
                         </tr>
+                        
+                        <tr class="prop">
+                            <td valign="top" class="name">Age:</td>
+                            
+                            <td valign="top" class="value">${fieldValue(bean:userInstance, field:'age')}</td>
+                        </tr>
                     
                     </tbody>
                 </table>
