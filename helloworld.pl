@@ -1,4 +1,4 @@
-#!/bin/env perl 
+#!/usr/bin/env perl 
 
 sub simple_looping {
   foreach $i (1..10) {
