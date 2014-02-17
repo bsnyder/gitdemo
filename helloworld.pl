@@ -16,6 +16,7 @@ sub string_manip {
 }
 
 sub main {
+  print "Entering the main subroutine\n";
   &simple_looping; 
   &string_manip;
 }
